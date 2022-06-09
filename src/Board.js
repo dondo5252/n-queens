@@ -180,7 +180,7 @@
       }
       return false; // fixme
     },
-
+//
     // test if any major diagonals on this board contain conflicts
     hasAnyMajorDiagonalConflicts: function() {
       var row = this.rows();
