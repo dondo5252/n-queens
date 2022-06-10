@@ -107,7 +107,8 @@ describe('Board', function() {
       [0, 1, 0, 0],
       [0, 0, 1, 0],
       [0, 0, 0, 0],
-      [0, 0, 0, 0]
+      [0, 0, 0, 0],
+
     ];
     var board = new Board(matrix);
 
@@ -172,7 +173,8 @@ describe('Board', function() {
     var matrix = [
       [0, 0, 1, 0],
       [0, 0, 0, 0],
-      [1, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
       [0, 0, 0, 0]
     ];
     var board = new Board(matrix);
